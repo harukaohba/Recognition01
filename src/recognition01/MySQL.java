@@ -16,11 +16,11 @@ public class MySQL {
     
 	public MySQL() {
 		this.driver = "org.gjt.mm.mysql.Driver";
-        this.server = "sangi2018.sist.ac.jp";
-        this.dbname = "j16000";
+        this.server = "---.sist.ac.jp";
+        this.dbname = "---";
         this.url = "jdbc:mysql://" + server + "/" + dbname + "?useUnicode=true&characterEncoding=UTF-8";
-        this.user = "j16000";
-        this.password = "sistj16000";
+        this.user = "---";
+        this.password = "---";
         try {
             this.con = DriverManager.getConnection(url, user, password);
             this.stmt = con.createStatement ();
