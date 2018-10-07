@@ -1,0 +1,27 @@
+{
+  "images_processed": 1,
+  "images": [
+    {
+      "faces": [
+        {
+          "age": {
+            "min": 44,
+            "max": 48,
+            "score": 0.64800006
+          },
+          "gender": {
+            "gender": "MALE",
+            "score": 0.99927264
+          },
+          "face_location": {
+            "width": 67.0,
+            "height": 74.0,
+            "left": 255.0,
+            "top": 100.0
+          }
+        }
+      ],
+      "image": "prez.jpg"
+    }
+  ]
+}
